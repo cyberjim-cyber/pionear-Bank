@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pionear bank</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+
+<div id="login-area">
+    <h1 class="bank-title">Welcome to Pionear Bank</h1>
+<div class="submit-area">
+<h4>login</h4>
+<input type="text"placeholder="email" class="form-control">
+
+<input class="form-control" placeholder="password" type="password" name="" id="">
+<button id="login"class="btn btn-success">Enter</button>
+</div>
+</div>
+<div id="transaction-area">
+
+<div class="row">
+    <div class="col-md-4 ">
+        <div class="deposit">
+
+            <h2>deposit</h2>
+        <h2>$ <span id="current-deposit">00</span></h2>
+        </div>
+    </div>
+    <div class="col-md-4 ">
+      <div class="witdrow">
+
+        <h2>witdrow</h2>
+        <h2>$ <span id="current-witdrow">00</span></h2>
+      </div>
+    </div>
+    <div class="col-md-4 ">
+      <div class="balance">
+
+        <h2>Balance</h2>
+        <h2>$ <span id="current-balance"> 1240</span></h2>
+      </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+       <div class="submit-area">
+        <h4>Diposit</h4>
+     
+        <input id="deposit-amount" type="text"class="form-control"placeholder="$amount you want to deposit" >
+        <button id="add-deposit" class="btn btn-success ">Diposit</button>
+       </div>
+    </div>
+    <div class="col-md-6">
+        <div class="submit-area">
+        <h4>Witdrow</h4>
+        <input id="witdrow-amount" class="form-control" placeholder="$amount you want to witdrow" type="text">
+        <button id="add-witdrow" class="btn btn-success ">Witdrow</button>
+       </div>
+    </div>
+</div>
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+<script src="main.js"></script>
+
+</body>
+</html>
